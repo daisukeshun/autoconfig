@@ -19,3 +19,5 @@ python3 install.py --clang-completer
 
 cd ..
 git clone https://github.com/scrooloose/nerdtree.git
+
+echo "All works fine"
