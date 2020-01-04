@@ -4,6 +4,7 @@ sudo apt install vim -y
 sudo apt install cmake -y
 sudo apt install python3-dev -y
 
+cd ~/
 git clone https://github.com/daisukeshun/.vimrc-and-.vim.git
 
 cp -r .vimrc-and-.vim/* ./
