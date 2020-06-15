@@ -11,10 +11,12 @@ cd ~/
 git clone https://github.com/daisukeshun/dotfiles.git
 
 cp -r dotfiles/* ./
-mv ./vim ./.vim
+mv vim/* ./
+rmdir vim
 rm -rf dotfiles LICENSE README.md
 
-cd .vim/bundle
+'''
+cd ~/.vim/bundle
 git clone https://github.com/tpope/vim-fugitive
 git clone https://github.com/ycm-core/YouCompleteMe.git
 git clone https://github.com/beyondmarc/opengl.vim
@@ -24,3 +26,4 @@ git submodule update --init --recursive
 python3 install.py --clangd-completer
 
 echo "All works fine"
+'''
