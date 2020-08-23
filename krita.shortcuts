@@ -4,3 +4,6 @@ KisToolSelectOutline=Shift+A
 ToolReferenceImages=Shift+R
 add_new_paint_layer=Ctrl+A
 select_all=none
+undo_polygon_selection=none
+view_zoom_in=Shift+Z
+view_zoom_out=Shift+X
