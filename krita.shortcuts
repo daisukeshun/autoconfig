@@ -1,8 +1,13 @@
 [Shortcuts]
+KisAssistantTool=Q
 KisToolSelectContiguous=Shift+W
 KisToolSelectOutline=Shift+A
+KritaShape/KisToolMultiBrush=none
 ToolReferenceImages=Shift+R
+activateNextLayer=!
+activatePreviousLayer=@
 add_new_paint_layer=Ctrl+A
+clear=Shift+D
 select_all=none
 undo_polygon_selection=none
 view_zoom_in=Shift+Z
