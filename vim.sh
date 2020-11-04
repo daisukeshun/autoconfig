@@ -1,12 +1,6 @@
 #!/bin/bash
 echo "this programm must run with common user (NOT ROOT!)"
 
-sudo apt install git -y
-sudo apt install vim -y
-sudo apt install cmake -y
-sudo apt install python3-dev -y
-sudo apt install build-essential -y
-
 cd ~/
 git clone https://github.com/daisukeshun/dotfiles.git
 
@@ -23,5 +17,7 @@ git clone https://github.com/beyondmarc/opengl.vim
 cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 python3 install.py --clangd-completer
+
+git clone https://github.com/mattn/emmet-vim.git ~/.vim/bundle/emmet-vim
 
 echo "All works fine"
